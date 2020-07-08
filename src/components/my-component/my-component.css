@@ -15,7 +15,7 @@ button {
   animation: glow 5s ease-in-out infinite;
 }
 
-button:active {
+button:focus:not(:active) {
   animation: shake 1s linear, glow 5s ease-in-out infinite;
 }
 
