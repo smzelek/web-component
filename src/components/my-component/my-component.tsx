@@ -1,4 +1,4 @@
-import { Component, h, Element } from '@stencil/core';
+import { Component, h } from '@stencil/core';
 
 @Component({
   tag: 'my-component',
@@ -6,14 +6,10 @@ import { Component, h, Element } from '@stencil/core';
   shadow: true
 })
 export class MyComponent {
-  
-  @Element() el!: HTMLElement;
-
   render() {
     return (
       <button 
-        ref={(el) => this.el = el}
-        onClick={() => this.el.focus()}>
+        onClick={(el) => (el.target as HTMLButtonElement).focus()}>
         Wonderful Web Component
       </button>
     );
