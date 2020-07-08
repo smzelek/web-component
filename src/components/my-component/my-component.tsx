@@ -10,7 +10,6 @@ export class MyComponent {
     return (
       <button>
         Wonderful Web Component
-        <div class="glow"></div>
       </button>
     );
   }
