@@ -1,0 +1,1 @@
+import{p,b as c}from"./p-8e5782f0.js";p().then(p=>c([["p-6cc3c541",[[1,"my-component"]]]],p));

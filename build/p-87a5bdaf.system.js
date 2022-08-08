@@ -1,0 +1,1 @@
+System.register(["./p-644d18d6.system.js"],(function(){"use strict";var e,t;return{setters:[function(n){e=n.p;t=n.b}],execute:function(){e().then((function(e){return t([["p-1e56218e.system",[[1,"my-component"]]]],e)}))}}}));

@@ -1,5 +1,5 @@
 {
-  "name": "example-web-component",
+  "name": "web-component",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/example-web-component/example-web-component.js",
+  "unpkg": "dist/web-component/web-component.js",
   "files": [
     "dist/",
     "loader/"
